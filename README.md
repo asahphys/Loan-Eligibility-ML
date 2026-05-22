@@ -13,42 +13,6 @@ This project builds and evaluates a **machine learning framework** to automate l
 
 **Key Result:** Random Forest achieved the best performance with **78% accuracy** and **AUC-ROC of 0.72**, with Credit History identified as the most influential predictor.
 
----
-
-## 🗂️ Repository Structure
-
-```
-loan-eligibility-ml/
-│
-├── data/
-│   ├── raw/                    # Original dataset from Kaggle
-│   │   ├── train.csv           # Training data (614 samples, 13 features)
-│   │   └── test.csv            # Test data (without Loan_Status)
-│   └── processed/              # Cleaned & engineered datasets (generated)
-│
-├── notebooks/
-│   └── loan_eligibility_analysis.ipynb   # Full EDA, FE & modeling notebook
-│
-├── src/
-│   ├── preprocessing.py        # Data cleaning & encoding pipeline
-│   ├── feature_engineering.py  # Feature creation logic
-│   └── evaluate.py             # Model evaluation utilities (ROC, SHAP, CM)
-│
-├── app/
-│   └── loan_approval.py        # Streamlit dashboard (4-page interactive app)
-│
-├── models/                     # Saved model artifacts (generated at runtime)
-│
-├── docs/
-│   └── Kelompok_7_Data_Mining.pdf   # Final presentation slides
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
----
-
 ## 🧪 Dataset
 
 | Field | Description |
