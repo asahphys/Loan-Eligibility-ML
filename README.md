@@ -3,8 +3,6 @@
 > **SK5016 — Data Mining | Institut Teknologi Bandung**  
 > Kelompok 7 · May 2026
 
----
-
 ## 📌 Overview
 
 Manual credit assessment is time-consuming, inconsistent, and prone to human bias — creating operational risk for lenders and missed revenue opportunities from misclassified applicants.
@@ -61,25 +59,7 @@ Log-transformation (`log1p`) was applied to all skewed income/loan features.
 
 **Winner: Random Forest** — best overall accuracy and discriminative power.
 
----
-
-## 🔍 Key Insights
-
-- **Credit History** is the single strongest predictor (χ²=176.11, p<0.0001)
-- Engineered features consistently outperform raw inputs
-- Married status and Property Area are statistically significant (Chi-square test)
-- Income features show no significant T-test difference — raw income alone is insufficient
-
----
-
-## 🚀 Running the App
-
-### Prerequisites
-```bash
-pip install -r requirements.txt
-```
-
-### Launch Streamlit Dashboard
+## Launch Streamlit Dashboard
 ```bash
 # Make sure train.csv and test.csv are in the working directory
 streamlit run app/loan_approval.py
@@ -100,8 +80,6 @@ The app includes 4 pages:
 | Ardiansah | 20225006 |
 | Andika Mohammad Mahpudin | 20224301 |
 | Keishi Tsabitah I | 10323016 |
-
----
 
 ## 📚 References
 
